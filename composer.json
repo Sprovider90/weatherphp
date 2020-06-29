@@ -1,0 +1,28 @@
+{
+    "name": "jiulin\/weather",
+    "description": "fortest",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangjiulin",
+            "email": "zhangjiulin@guxiansheng.cn"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "phpunit/phpunit": "^9.2",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiulin\\Weather\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jiulin\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
