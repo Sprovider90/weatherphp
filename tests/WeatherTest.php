@@ -15,6 +15,12 @@ class WeatherTest extends TestCase
     public function testGetWeatherWithInvalidType()
     {
 
+
+
+
+
+
+
         
         $w = new Weather('mock-key');
        
